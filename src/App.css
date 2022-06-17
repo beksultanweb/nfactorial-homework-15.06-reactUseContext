@@ -5,12 +5,19 @@
 }
 
 
-header {
+header, footer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   justify-items: center;
 }
-
+.bg{
+  justify-self: left;
+  position: relative;
+  margin: 1rem;
+}
+.author {
+  color: white;
+}
 input {
   box-sizing: border-box;
   height: 10px;
@@ -25,11 +32,6 @@ hr {
 }
 
 
-.links-layout {
-  justify-self: left;
-  position: relative;
-  margin: 1rem;
-}
 
 .link {
   margin: .5rem;
